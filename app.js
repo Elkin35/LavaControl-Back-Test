@@ -37,6 +37,6 @@ const server = http.createServer((req, res) => {
 });
 
 // Iniciar el servidor HTTP en el puerto 3000
-server.listen(3000, () => {
+server.listen(8080, () => {
   console.log("Servidor HTTP iniciado en http://localhost:3000");
 });
